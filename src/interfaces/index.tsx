@@ -3,7 +3,7 @@
 //   }
   
   export interface IFileTree {
-    // id:string;
+    id:string;
     name: string;
     isFolder: boolean;
     children?: IFileTree[]; // only for folders
